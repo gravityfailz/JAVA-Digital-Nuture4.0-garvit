@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.column {
+  padding: 10px 20px;
+  border-left: 2px solid green;
+}
+
+.column:first-child {
+  border-left: none;
+}
+
+.column h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.column h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.column h4, .column p {
+  margin-top: 0;
+  font-size: 16px;
+}
